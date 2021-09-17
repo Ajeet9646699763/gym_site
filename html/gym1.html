@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap"
+      rel="stylesheet"
+    />
+    <title>Gym</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      #head {
+        background-image: url("/img/WhatsApp\ Image\ 2021-07-04\ at\ 8.50.08\ AM.jpeg");
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size:100% 100% ;
+      }
+      .logo {
+        /*   display: inline-block;*/
+
+        padding: 40px 0px 20px 60px;
+        font-size: 40px;
+        font-family: "Zen Tokyo Zoo", cursive;
+        font-weight: 10px;
+        text-decoration: line-through 3px;
+      }
+      .logo:hover {
+        color: grey;
+      }
+      header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        top: 0;
+        left: 0;
+      }
+      .navbar {
+        align-content: center;
+        padding-left: 40px;
+        position: sticky;
+      }
+      .navbar li {
+        list-style: none;
+        float: left;
+      }
+      .navbar a {
+        display: flex;
+        text-decoration: none;
+        padding: 40px;
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+      }
+      .navbar a:hover {
+        color: grey;
+      }
+      .ship {
+        padding-top: 35px;
+        padding-right: 40px;
+      }
+      .btn {
+        text-transform: uppercase;
+        font-size: 15px;
+        border-radius: 8px;
+        background-color: rgb(207, 87, 107);
+        /*  border: 2px;*/
+        cursor: pointer;
+        padding: 10px;
+      }
+      .btn:hover {
+        background-color: rgb(245, 143, 194);
+      }
+      .btn:visited {
+        background-color: rgb(245, 143, 194);
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 300px;
+      }
+      .content h2 {
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: 30px;
+      }
+      .content p {
+        display: flex;
+        justify-content: center;
+      }
+      .download {
+        display: flex;
+        justify-content: center;
+      }
+      .btn2 {
+        background-color: transparent;
+        border: 2px solid black;
+        cursor: pointer;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 8px;
+      }
+      .btn2:hover {
+        color: white;
+        background-color: black;
+      }
+      .about{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin-top: 20px;
+      }
+      .container {
+        height: 100vh;
+        width: 100vw;
+       /* background-color: pink;*/
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .box1{
+          /*border: 2px solid red;*/
+          background-color: black;
+          color: white;
+          height: 510px;
+          width: 370px;
+          display: flex;
+          flex-direction: column;
+          margin-left: 100px;
+          }
+          .box1 img{
+              height: 305px ;
+              width: 370px ;
+          }
+          .box1 h2{
+              text-align: center;
+              margin: 10px;
+             
+          }
+          .box1 p{
+              text-align: center;
+              margin: 0px 20px 10px 10px;
+          }
+          .box2{
+          /*border: 2px solid red;*/
+          background-color: red;
+          color: white;
+          height: 510px;
+          width: 370px;
+          display: flex;
+          flex-direction: column;
+          }
+          .box2 img{
+              height: 305px ;
+              width: 370px ;
+          }
+          .box2 h2{
+              text-align: center;
+              margin: 10px;
+              left: 20px;
+          }
+          .box2 p{
+              text-align: center;
+              margin: 0px 20px 10px 10px;
+          }
+          .box3{
+        /*  border: 2px solid red;*/
+          background-color: black;
+          color: white;
+          height: 510px;
+          width: 370px;
+          display: flex;
+          flex-direction: column;
+          margin-right: 100px;
+          }
+          .box3 img{
+              height: 305px ;
+              width: 370px ;
+          }
+          .box3 h2{
+              text-align: center;
+              margin: 10px;
+              left: 20px;
+          }
+          .box3 p{
+              text-align: center;
+              margin: 0px 20px 10px 10px;
+          }
+    </style>
+  </head>
+  <body>
+    <div id="head">
+      <header>
+        <div class="logo">Fitness</div>
+        <div class="navbar">
+          <ul>
+            <li><a href="/html/login.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Servies</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="ship">
+          <button class="btn">Bcome a mamber</button>
+          <a href="/html/login.html">
+            <button class="btn">login/register</button>
+          </a>
+        </div>
+      </header>
+      <div class="content">
+        <h2>health is wealth</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut id quas
+          corporis praesentium a quis, est ad deleniti voluptatum. Commodi
+          recusandae, error non possimus debitis sequi ipsam beatae dicta
+          quaerat!4
+        </p>
+      </div>
+      <div class="download">
+        <button class="btn2">get started</button>
+        <button class="btn2">download</button>
+      </div>
+    </div>
+    <!--About section-->
+    <section>
+        <h1 class="about">About
+        </h1>
+      <div class="container">
+          <h1></h1>
+        <div class="box1">
+            <div>
+                <img src="/img/about1.jpg" alt="">
+            </div>
+            <div>
+                <h2> Free Consultation</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia amet aliquid temporibus doloremque quos, est consequatur accusantium dignissimos facilis sequi ullam voluptates neque sit ipsam minus. Culpa fugiat officiis id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus deleniti recusandae debitis magnam, ipsa quisquam officiis ad error vitae,</p>
+            </div>
+        </div>
+        <div class="box2">
+            <div>
+                <img src="/img/about2.jpg" alt="">
+            </div>
+            <div>
+                <h2> Best Training </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia amet aliquid temporibus doloremque quos, est consequatur accusantium dignissimos facilis sequi ullam voluptates neque sit ipsam minus. Culpa fugiat officiis id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus deleniti recusandae debitis magnam, ipsa quisquam officiis ad error vitae,</p>
+            </div>
+        </div>
+        <div class="box3">
+            <div>
+                <img src="/img/about3.jpg" alt="">
+            </div>
+            <div>
+                <h2> Build Perfect Body</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia amet aliquid temporibus doloremque quos, est consequatur accusantium dignissimos facilis sequi ullam voluptates neque sit ipsam minus. Culpa fugiat officiis id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus deleniti recusandae debitis magnam, ipsa quisquam officiis ad error vitae,</p>
+            </div>
+        </div>
+        
+      </div>
+    </section>
+    <!--About end -->
+    <!--Services start-->
+ 
+  </body>
+</html>
